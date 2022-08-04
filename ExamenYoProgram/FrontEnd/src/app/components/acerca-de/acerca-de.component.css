@@ -1,0 +1,42 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #001b26;
+    text-align: center;
+    color: azure;
+}
+    #fotoperfil{
+        max-width: auto;
+        max-height: 400px;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px hwb(0 2% 12%);
+        left: 4%;
+    }
+    #acerca{
+        text-align: center;
+        right: 4%;
+    }
+    #estudio{
+        animation: fluido 20s ease-in-out infinite;
+        background: linear-gradient(-45deg, #f5f3f2, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 300%;
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 24px;
+      }
+      
+      @keyframes fluido {
+          0% { background-position: 0 50% }
+          50% { background-position: 100% 50% }
+          100% { background-position: 0 50% }
+      }
+    
+#nombre{
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 26px;
+}
+
+   
